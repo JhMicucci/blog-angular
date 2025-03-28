@@ -1,0 +1,9 @@
+@media screen and (min-width:600px){
+
+    .menu__tile__container > h1 {
+
+
+        font-size: 30px;
+    }
+
+}
