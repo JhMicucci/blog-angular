@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 
+import { RouterLink, RouterOutlet } from '@angular/router';
+
 @Component({
   selector: 'app-big-card',
   imports: [],
@@ -15,6 +17,9 @@ export class BigCardComponent {
   cardTitle:string= ""
   @Input()
   cardDescription=""
+  @Input()
+  Id:string="0"
+
   constructor(){}
 
   ngOnInit(): void{
